@@ -9,6 +9,8 @@ public class GameCharacterRepository {
     static List<GameCharacter> characters = new ArrayList<>();
 
     public static List<GameCharacter> buildCharacters(){
+
+        //Hardcoded
         characters = List.of(
             new GameCharacter("Raimo", 'M', "Goblin"),
             new GameCharacter("Juku", 'M', "Juku"),

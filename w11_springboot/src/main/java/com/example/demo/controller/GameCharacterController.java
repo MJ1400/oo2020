@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.repository.GameCharacterRepository;
+import com.example.demo.services.GameCharacterService;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,7 +13,7 @@ public class GameCharacterController {
     @GetMapping("/characters")
     public String getCharacters(Model model){
 
-        model.addAttribute("characters", GameCharacterRepository.buildCharacters());
+        model.addAttribute("characters", GameCharacterService.getCharacters());
 
         return "characters";
     }

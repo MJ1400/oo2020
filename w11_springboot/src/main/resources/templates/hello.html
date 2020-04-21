@@ -9,7 +9,7 @@
     <h1 th:text="${message}">Default message</h1>
 
     <div th:unless="${not condition}"> <!-- <div th:if="${condition}"> -->
-        <h2 th:text="${num1} + ' * ' + ${num2} + ' = ' + ${sum}"></h2>
+        <h2 th:text="${num1} + ' ' +  ${sign} + ' ' + ${num2} + ' = ' + ${sum}"></h2>
     </div>
 </body>
 </html>
