@@ -1,0 +1,18 @@
+mvnw spring-boot:run
+./mvnw spring-boot:run
+
+// HTTP methods
+GET
+PUT
+PATCH
+DELETE
+
+@GetMapping("/calc")
+@PutMapping
+@PatchMapping
+@DeleteMapping
+
+==> @RequestMapping(value = "/calc", method = RequestMethod.GET)
+
+CRUD
+Create Read Update Delete
