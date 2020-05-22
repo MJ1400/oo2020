@@ -1,3 +1,0 @@
-Õppejõu käest valitud kolme tasemega kontrolltööülesanne.
-
-Punktid võib esitada eraldi programmidena

@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Characters</title>
-</head>
-<body>
+    <link th:href="@{/styles/main.css}" rel="stylesheet" />
+  </head>
+  <body>
     <h1 th:text="${characters}"></h1>
-    <div th:each="character, characterStat : ${characters}">
-        <p th:text="${character.name}"></p>
-        <ul>
-            <li th:text="${characterStat}"></li>
-            <li th:text="${character.x}"></li>
-            <li th:text="${character.y}"></li>
-            <li th:text="${character.gender}"></li>
-            <li th:text="${character.type}"></li>
-        </ul>
+    <div th:each="character : ${characters}">
+      <p th:text="${character.name}"></p>
+      <ul>
+        <li th:text="${character.x}"></li>
+        <li th:text="${character.y}"></li>
+        <li th:text="${character.gender}"></li>
+        <li th:text="${character.type}"></li>
+      </ul>
     </div>
-</body>
+  </body>
 </html>

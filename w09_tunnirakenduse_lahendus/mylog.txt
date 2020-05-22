@@ -1,4 +1,0 @@
-Apr 14, 2020 8:58:11 AM Example main
-WARNING: Code should never reach here / by zero
-Apr 14, 2020 8:58:11 AM Example main
-WARNING: Index 3 out of bounds for length 3

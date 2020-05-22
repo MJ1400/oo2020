@@ -7,16 +7,18 @@ public class GameCharacter {
     public char gender;
     public String type;
 
-    public GameCharacter(String name, char gender, String type){
+    public GameCharacter(String name, char gender, String type) {
         this.x = 5;
         this.y = 5;
-
         this.name = name;
         this.gender = gender;
         this.type = type;
+
     }
 
-    public String toString(){
+    public String toString() {
         return this.name;
     }
+
+    
 }

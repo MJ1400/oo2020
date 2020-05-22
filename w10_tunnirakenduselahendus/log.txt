@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-07T16:55:30</date>
+  <millis>1588859730752</millis>
+  <sequence>0</sequence>
+  <logger>Tund</logger>
+  <level>WARNING</level>
+  <class>Tund</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>/ by zero</message>
+</record>
+<record>
+  <date>2020-05-07T16:55:30</date>
+  <millis>1588859730777</millis>
+  <sequence>1</sequence>
+  <logger>Tund</logger>
+  <level>WARNING</level>
+  <class>Tund</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>3</message>
+</record>
+</log>

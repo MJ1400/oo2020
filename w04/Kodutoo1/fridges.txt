@@ -1,0 +1,14 @@
+black
+grey
+black
+white
+grey
+black
+black
+grey
+grey
+blue
+white
+blue
+blue
+white

@@ -1,43 +1,37 @@
-import java.util.List;
-import java.util.Vector;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.HashMap;
 
-/**
- * Test
- */
 public class Test {
 
-    String name;
-    int length;
-    public static void main(String[] args){
-        List<String> list = new ArrayList<>();
+  public static void main(String[] args) {
+    ArrayList<String> list = new ArrayList<String>();
+    HashSet <String> hashlist = new HashSet<String>();
+    HashMap<String, String> fullnames = new HashMap<String, String>();
 
-        List<String> list2 = new ArrayList<>();
-        list.add("Hello");
-        list.add("world");
-        list.add(String.valueOf(5));
-        list.add(10 + "");
+    hashlist.add("Eesti");
+    hashlist.add("Soome");
+    hashlist.add("Rootsi");
+    System.out.println(hashlist);
+    System.out.println("Kas hashlist sisaldab Eestit?: " + hashlist.contains("Eesti"));
+    System.out.println("-----------------------------------");
+    fullnames.put("Marten", "Jyrgens");
+    fullnames.put("Karmo", "Pihlakas");
+    fullnames.put("Rasmus", "Tamm");
+    System.out.println(fullnames);
+    System.out.println("-----------------------------------");
+    list.add("Hello");
+    list.add("world");
+    list.add(String.valueOf(5));
+    list.add(10 + "");
 
-        for(String name : list){
-            System.out.println(name);
-        }
+  for(String name : list) {
+    System.out.println(name);
+  }
 
-        for(int i = 0; i < list.size(); i++){
-            System.out.println(list.get(i));
-        }
+  for(int i = 0; i < list.size(); i++) {
+    System.out.println(list.get(i));
+  }
 
-        Test test = new Test();
-        test.name = "My Test name";
-        test.length = "30 days";
-
-        Test test2 = new Test();
-        test2.name = "My Second Test";
-
-        Test[] testArray = new Test[5];
-
-        testArray[4] = new Test();
-
-        List<Test> myList = new ArrayList<>();
-
-    }
+  }
 }

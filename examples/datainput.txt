@@ -1,2 +1,0 @@
-5000,Raimo,jänes,2021
-4000,Mihkel,tiiger,2021
